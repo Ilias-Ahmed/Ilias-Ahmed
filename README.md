@@ -1,4 +1,4 @@
-<img src="https://media1.tenor.com/m/ZNp_Ej5ab-YAAAAC/coding.gif" width="100%"; border-radius:10px; height="10vh";/>
+<img src="https://media1.tenor.com/m/ZNp_Ej5ab-YAAAAC/coding.gif" style="width: 100%; border-radius: 10px; height: 10vh;"/>
 
 ># 🧑‍💻 Intro:
 <img src="https://media0.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif?cid=ecf05e47wbjxj82ouomb9s4o9p284k1ss5xuc2s9vl9swwkl&ep=v1_gifs_search&rid=giphy.gif&ct=g" align="right"; width="20vw"; border-radius="15px"; />
