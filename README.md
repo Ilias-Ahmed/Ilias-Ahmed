@@ -1,7 +1,7 @@
 <img src="https://media1.tenor.com/m/ZNp_Ej5ab-YAAAAC/coding.gif" style="width: 100vmax; height: 30vmin;"/>
 
 ># 🧑‍💻 Intro:
-<img src="https://media0.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif?cid=ecf05e47wbjxj82ouomb9s4o9p284k1ss5xuc2s9vl9swwkl&ep=v1_gifs_search&rid=giphy.gif&ct=g" align="right" style="height:25vmin; width:25vmin"/>
+<img src="https://media0.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif?cid=ecf05e47wbjxj82ouomb9s4o9p284k1ss5xuc2s9vl9swwkl&ep=v1_gifs_search&rid=giphy.gif&ct=g" align="right" style="height:26vmin; width:26vmin"/>
 🧑‍🏭 Currently working on my new project.<br>🌱 Becoming a full stack developer.<br>💬 ? Ask me about coding.
 
 ## 🌐 Socials:
