@@ -1,8 +1,23 @@
+<div align="center" style="margin: 20px 0;">
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=500&height=60&lines=Full+Stack+Developer;MERN+Developer;Software+Developer;Tech+Enthusiast" 
+    alt="Typing SVG" 
+    style="border-radius: 8px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);"
+  />
+</div>
 <img src="https://raw.githubusercontent.com/KShukhrat/KShukhrat/main/assets/header_gif.gif" style="width: 100vmax; height: 30vmin;"/>
-# 💫 About Me:
-🔭 I’m currently working on web development<br>👯 I’m looking to collaborate on my projects<br>🤝 I’m looking for help with frameworks like React<br>🌱 I’m currently learning TypeScript to improve the type safety<br>💬 Ask me about progressive web apps (PWAs)<br>⚡ Fun fact: (I'm a master keyboard shortcut user).
 
-## 🌐 Socials:
+## 💫 About Me
+
+🚀 **I call myself a complete developer**
+
+- 🔭 Currently building scalable web applications with MERN stack
+- 🌱 Learning Cloud Architecture and DevOps practices
+- 👯 Looking to collaborate on open-source projects
+- 💡 Passionate about clean code and software architecture
+- 🎯 2024 Goals: learn & work hard everyday and become job ready
+
+## 🌐 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in//ilias-ahmed9613) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/ilias9613) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@mipedia5145)
 
 # 💻 Tech Stack:
