@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1c2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2f4c;stop-opacity:1" />
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main container -->
+  <rect width="400" height="80" rx="15" fill="url(#gradient)" />
+  
+  <!-- Time icon -->
+  <circle cx="40" cy="40" r="15" fill="none" stroke="#64ffda" stroke-width="2">
+    <animate attributeName="stroke-dasharray" 
+             from="0,100" 
+             to="100,100" 
+             dur="2s" 
+             repeatCount="indefinite"/>
+  </circle>
+  <line x1="40" y1="40" x2="40" y2="30" stroke="#64ffda" stroke-width="2" stroke-linecap="round">
+    <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="rotate"
+                      from="0 40 40"
+                      to="360 40 40"
+                      dur="12s"
+                      repeatCount="indefinite"/>
+  </line>
+
+  <!-- Text elements -->
+  <g filter="url(#glow)">
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="16" fill="#64ffda" font-weight="bold">
+      Available in India (IST)
+    </text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="14" fill="#8892b0">
+      GMT+5:30 • 
+      <tspan id="status" fill="#4CAF50">Currently Available</tspan>
+    </text>
+  </g>
+
+  <!-- Pulse effect -->
+  <circle cx="375" cy="40" r="5" fill="#4CAF50">
+    <animate attributeName="opacity"
+             values="1;0.3;1"
+             dur="2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="r"
+             values="5;6;5"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+</svg>

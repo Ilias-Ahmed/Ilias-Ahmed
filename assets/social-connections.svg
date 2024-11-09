@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 80">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4834d4"/>
+      <stop offset="100%" style="stop-color:#686de0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Animated Connection Lines -->
+  <g transform="translate(30,40)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#fff" stroke-width="2">
+      <animate attributeName="r" values="15;17;15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-8,0 L8,0 M0,-8 L0,8" stroke="#fff" stroke-width="2">
+      <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="70" y="48" font-family="Arial, sans-serif" font-size="24" fill="#fff" filter="url(#glow)">
+    Let's Connect and Build Together
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </text>
+</svg>
