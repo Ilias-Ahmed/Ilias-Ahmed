@@ -60,7 +60,7 @@ const IliasAhmed = {
   <h3>⚡ Backend Powerhouse</h3>
   <p>
     <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="50">
-    <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3269842/express-icon-md.png" width="55">
+    <img src="https://img.icons8.com/officel/2x/express-js.png" width="55">
   </p>
 
   <!-- Database -->
