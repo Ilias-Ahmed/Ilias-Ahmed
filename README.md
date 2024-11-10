@@ -5,7 +5,7 @@
 
 <!-- Animated Introduction -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=1200&center=true&vCenter=true&width=500&lines=%F0%9F%8C%B8+MERN+Stack+Developer;🟢+MongoDB+Expert;🚀+Express.js+Developer;⚛️+React.js+Specialist;🔷+Node.js+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=1200&center=true&vCenter=true&width=500&lines=%F0%9F%8C%B8+MERN+Stack+Developer;🟢+MongoDB+Expert;🚀+Express.js+Developer;⚛️+React.js+Specialist;expert+in+🔷+Node.js" alt="Typing SVG" />
 </div>
 
 <!-- Profile Views & Time Zone -->
@@ -33,7 +33,7 @@
 ```javascript
 const IliasAhmed = {
   pronouns: "He" | "Him",
-  location: "India 🌏",
+  country: "India 🇮🇳",
   currentFocus: "Building Scalable Web Applications",
   funFact: "I can code for hours with just coffee ☕",
   hobbies: ["Coding", "Problem Solving", "Reading Tech Blogs"],
