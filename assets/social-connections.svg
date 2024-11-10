@@ -25,7 +25,7 @@
   
   <!-- Title Text -->
   <text x="70" y="48" font-family="Arial, sans-serif" font-size="24" fill="#fff" filter="url(#glow)">
-    Let's Connect and Build Together
+    You can connect with me
     <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
   </text>
 </svg>
