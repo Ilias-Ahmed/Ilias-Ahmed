@@ -66,7 +66,7 @@ const IliasAhmed = {
   <!-- Database -->
   <h3>🛢️ Database Management</h3>
   <p>
-    <img src="https://media.giphy.com/media/tAjb5pyCEBhEb8jWxC/giphy.gif" width="50"> 
+    <img src="./assets/mongodb logo.gif" width="50"> 
   </p>
 </div>
 
