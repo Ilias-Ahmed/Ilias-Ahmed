@@ -65,9 +65,9 @@ const IliasAhmed = {
 
   <!-- Database -->
   <h3>🛢️ Database Management</h3>
-  <p>
-    <img src="./assets/mongodb-logo.gif" width="50"> 
-  </p>
+    <p>
+    <img src="https://media1.giphy.com/media/WjW94M0OMFawh1F0Wv/200w.webp" width="100">
+    </p>
 </div>
 
 <!-- NEW: Interactive Skills Tree -->
