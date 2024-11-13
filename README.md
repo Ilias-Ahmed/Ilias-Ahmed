@@ -51,7 +51,7 @@ const IliasAhmed = {
   <h3>🎨 Frontend Technologies</h3>
   <p>
     <img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" width="50">
-    <img src="https://www.joshuaondieki.com/assets/gifs/Typescript.gif" width="50">
+    <img src="https://en.vetores.org/d/typescript.svg" width="45">
     <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" width="50"> 
     <img src="https://shadowblood.gallerycdn.vsassets.io/extensions/shadowblood/tailwind-moon/3.0.2/1673948732518/Microsoft.VisualStudio.Services.Icons.Default" width="50">
   </p>
@@ -166,8 +166,11 @@ const IliasAhmed = {
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://twitter.com/your-twitter">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+      <img src="https://img.shields.io/badge/@Ilias_Ahmd-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="Twitter" />
     </a>
+   <a href="https://your-portfolio-url.com">
+     <img src="https://img.shields.io/badge/Portfolio-4CAF50?style=for-the-badge&logo=firefox&logoColor=white" alt="View Portfolio" />
+   </a>
   </p>
 
 <!-- Separator -->
@@ -181,7 +184,7 @@ const IliasAhmed = {
     <a href="https://calendly.com/your-username">
       <img src="https://img.shields.io/badge/Schedule_Meeting-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white" alt="Schedule" />
     </a>
-    <a href="https://discord.gg/your-server">
+    <a href="https://discord.gg/NMQJcagw">
       <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
     </a>
   </p>
