@@ -99,7 +99,7 @@ const IliasAhmed = {
             <img src="https://img.shields.io/badge/Code-fe428e?style=for-the-badge&logo=github&logoColor=white" alt="Code"/>
           </a>  
           <a href="PROJECT_URL" target="_blank">
-            <img src="https://img.shields.io/badge/Live-fe428e?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"/>
+            <img src="https://img.shields.io/badge/Live-f2e15c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"/>
           </a>
         </p>
         <p><strong>React, Node.js, MongoDB</strong> - Your project description here</p>
@@ -116,7 +116,7 @@ const IliasAhmed = {
             <img src="https://img.shields.io/badge/Code-fe428e?style=for-the-badge&logo=github&logoColor=white" alt="Code"/>
           </a>  
           <a href="PROJECT_URL" target="_blank">
-            <img src="https://img.shields.io/badge/Live-fe428e?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"/>
+            <img src="https://img.shields.io/badge/Live-f2e15c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"/>
           </a>
         </p>
         <p><strong>Next.js, TypeScript, TailwindCSS</strong> - Your project description here</p>
