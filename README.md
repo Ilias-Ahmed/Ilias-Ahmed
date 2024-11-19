@@ -200,6 +200,9 @@ const IliasAhmed = {
     <a href="https://stackoverflow.com/users/your-id">
       <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
     </a>
+    <a href="https://gist.github.com/Ilias-Ahmed/">
+     <img src="https://img.shields.io/badge/Explore%20My%20Gists-blue?style=for-the-badge&logo=github" alt="GitHub Gists" />
+    </a>
   </p>
 </div>
 
