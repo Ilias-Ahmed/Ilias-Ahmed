@@ -1,9 +1,8 @@
 name: Developer Quote Workflow
 on:
-  # Trigger options
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight
-  workflow_dispatch:  # Manual trigger option
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   update-quote:
@@ -17,14 +16,18 @@ jobs:
             "'Code is like humor. When you have to explain it, it's bad.' - Cory House"
             "'First, solve the problem. Then, write the code.' - John Johnson"
             "'Programming isn't about what you know; it's about what you can figure out.' - Chris Pine"
+            "'The best way to predict the future is to implement it.' - David Heinemeier Hansson"
+            "'Clean code always looks like it was written by someone who cares.' - Robert C. Martin"
+            "'Talk is cheap. Show me the code.' - Linus Torvalds"
+            "'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.' - Martin Fowler"
           )
           random_quote=$(printf '%s\n' "${quotes[@]}" | shuf -n 1)
-          echo "$random_quote" > QUOTE.md
+          echo "$random_quote" > quote.txt
       
       - name: Commit Quote
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add QUOTE.md
+          git add quote.txt
           git commit -m "Update daily developer quote"
           git push
