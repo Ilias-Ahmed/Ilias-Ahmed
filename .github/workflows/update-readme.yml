@@ -1,0 +1,31 @@
+name: Update README with Quote
+on:
+  workflow_run:
+    workflows: ["Developer Quote Workflow"]
+    types:
+      - completed
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Read Quote
+        id: get-quote
+        run: |
+          quote=$(cat QUOTE.md)
+          echo "::set-output name=quote::$quote"
+      
+      - name: Update README
+        run: |
+          quote="${{ steps.get-quote.outputs.quote }}"
+          sed -i "/<!-- START QUOTE -->/,/<!-- END QUOTE -->/c<!-- START QUOTE -->\n$quote\n<!-- END QUOTE -->" README.md
+      
+      - name: Commit Changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "Update README with new quote"
+          git push
