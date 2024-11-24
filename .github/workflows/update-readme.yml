@@ -1,5 +1,6 @@
 name: Update README with Quote
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Developer Quote Workflow"]
     types:
@@ -12,15 +13,17 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Read Quote
-        id: get-quote
+        id: quote
         run: |
-          quote=$(cat QUOTE.md)
-          echo "::set-output name=quote::$quote"
+          quote=$(cat quote.txt)
+          echo "QUOTE<<EOF" >> $GITHUB_OUTPUT
+          echo "$quote" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       
       - name: Update README
         run: |
-          quote="${{ steps.get-quote.outputs.quote }}"
-          sed -i "/<!-- START QUOTE -->/,/<!-- END QUOTE -->/c<!-- START QUOTE -->\n$quote\n<!-- END QUOTE -->" README.md
+          quote="${{ steps.quote.outputs.QUOTE }}"
+          sed -i "/<!-- START QUOTE -->/,/<!-- END QUOTE -->/c<!-- START QUOTE -->\n> $quote\n<!-- END QUOTE -->" README.md
       
       - name: Commit Changes
         run: |
