@@ -33,7 +33,7 @@
   <text x="40" y="90" font-family="Monaco, monospace" font-size="14" fill="#bd93f9">~/Ilias</text>
   <text x="100" y="90" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">$</text>
   <text x="120" y="90" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">
-    <tspan>cat profile.js</tspan>
+    <tspan>profile.js</tspan>
     <animate
       attributeName="textLength"
       from="0" to="100"
@@ -58,7 +58,7 @@
     <text x="40" y="145" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">pronouns:</text>
     <text x="120" y="145" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"He" | "Him"</text>
     <text x="40" y="170" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">country:</text>
-    <text x="120" y="170" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"India 🇮🇳"</text>
+    <text x="120" y="170" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"India"</text>
     <text x="40" y="195" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">currentFocus:</text>
     <text x="150" y="195" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"Building Scalable Web Applications"</text>
     <text x="40" y="220" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">funFact:</text>
