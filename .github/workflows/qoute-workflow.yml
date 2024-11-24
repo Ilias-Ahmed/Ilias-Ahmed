@@ -1,0 +1,30 @@
+name: Developer Quote Workflow
+on:
+  # Trigger options
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:  # Manual trigger option
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Random Quote
+        run: |
+          quotes=(
+            "'Code is like humor. When you have to explain it, it's bad.' - Cory House"
+            "'First, solve the problem. Then, write the code.' - John Johnson"
+            "'Programming isn't about what you know; it's about what you can figure out.' - Chris Pine"
+          )
+          random_quote=$(printf '%s\n' "${quotes[@]}" | shuf -n 1)
+          echo "$random_quote" > QUOTE.md
+      
+      - name: Commit Quote
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add QUOTE.md
+          git commit -m "Update daily developer quote"
+          git push
