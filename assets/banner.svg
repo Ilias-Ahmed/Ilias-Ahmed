@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
   <!-- Terminal window background -->
-  <rect width="800" height="200" rx="10" fill="#282a36"/>
+  <rect width="800" height="400" rx="10" fill="#282a36"/>
   
   <!-- Terminal header -->
   <rect width="800" height="30" rx="10" fill="#44475a"/>
@@ -13,36 +13,79 @@
   <!-- Terminal title -->
   <text x="400" y="20" font-family="Monaco, monospace" font-size="12" fill="#f8f8f2" text-anchor="middle">~/Ilias's-terminal</text>
   
-  <!-- Typing text -->
-  <text x="20" y="60" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">
-    <tspan x="20">$</tspan>
-    <tspan dx="10">
-      <animate
-        attributeName="textLength"
-        from="0" to="300"
-        dur="3s"
-        repeatCount="indefinite"
-        fill="freeze"/>
-      Welcome to my GitHub Profile!
-    </tspan>
-  </text>
+  <!-- Path indicator -->
+  <text x="20" y="60" font-family="Monaco, monospace" font-size="14" fill="#50fa7b">➜</text>
+  <text x="40" y="60" font-family="Monaco, monospace" font-size="14" fill="#bd93f9">~/Ilias</text>
+  <text x="100" y="60" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">$</text>
   
-  <!-- Blinking cursor -->
-  <rect x="20" y="80" width="8" height="15" fill="#f8f8f2">
+  <!-- Welcome message with infinite typing effect -->
+  <text x="120" y="60" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">
+    <tspan>Welcome to my GitHub Profile!</tspan>
+    <animate
+      attributeName="textLength"
+      from="0" to="220"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </text>
+
+  <!-- Command input with typing effect -->
+  <text x="20" y="90" font-family="Monaco, monospace" font-size="14" fill="#50fa7b">➜</text>
+  <text x="40" y="90" font-family="Monaco, monospace" font-size="14" fill="#bd93f9">~/Ilias</text>
+  <text x="100" y="90" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">$</text>
+  <text x="120" y="90" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">
+    <tspan>cat profile.js</tspan>
+    <animate
+      attributeName="textLength"
+      from="0" to="100"
+      dur="1s"
+      begin="2s"
+      fill="freeze"/>
+  </text>
+
+  <!-- Code block with sequential typing effect -->
+  <g opacity="0">
     <animate
       attributeName="opacity"
-      values="0;1;0"
-      dur="1s"
-      repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Command history -->
-  <text x="20" y="100" font-family="Monaco, monospace" font-size="14" fill="#6272a4">$ ls -la</text>
-  <text x="20" y="120" font-family="Monaco, monospace" font-size="14" fill="#6272a4">$ git status</text>
-  <text x="20" y="140" font-family="Monaco, monospace" font-size="14" fill="#6272a4">$ code .</text>
-  
-  <!-- Status line -->
-  <text x="20" y="180" font-family="Monaco, monospace" font-size="12" fill="#50fa7b">
+      from="0" to="1"
+      dur="0.5s"
+      begin="3s"
+      fill="freeze"/>
+    
+    <text x="20" y="120" font-family="Monaco, monospace" font-size="14" fill="#bd93f9">const</text>
+    <text x="65" y="120" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">IliasAhmed = {</text>
+    
+    <!-- Object properties with proper syntax highlighting -->
+    <text x="40" y="145" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">pronouns:</text>
+    <text x="120" y="145" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"He" | "Him"</text>
+    <text x="40" y="170" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">country:</text>
+    <text x="120" y="170" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"India 🇮🇳"</text>
+    <text x="40" y="195" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">currentFocus:</text>
+    <text x="150" y="195" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"Building Scalable Web Applications"</text>
+    <text x="40" y="220" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">funFact:</text>
+    <text x="120" y="220" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">"I can code for hours with just coffee ☕"</text>
+    <text x="40" y="245" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">hobbies:</text>
+    <text x="120" y="245" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">["Coding", "Problem Solving", "Reading Tech Blogs"]</text>
+    <text x="40" y="270" font-family="Monaco, monospace" font-size="14" fill="#ff79c6">ambitions:</text>
+    <text x="120" y="270" font-family="Monaco, monospace" font-size="14" fill="#f1fa8c">["Self Development", "Build Impactful Projects"]</text>
+    <text x="20" y="295" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">};</text>
+  </g>
+
+  <!-- New command prompt after code -->
+  <g opacity="0">
+    <animate
+      attributeName="opacity"
+      from="0" to="1"
+      dur="0.5s"
+      begin="3.5s"
+      fill="freeze"/>
+    
+    <text x="20" y="330" font-family="Monaco, monospace" font-size="14" fill="#50fa7b">➜</text>
+    <text x="40" y="330" font-family="Monaco, monospace" font-size="14" fill="#bd93f9">~/Ilias</text>
+    <text x="100" y="330" font-family="Monaco, monospace" font-size="14" fill="#f8f8f2">$</text>
+  </g>
+
+  <!-- Status line with blinking effect -->
+  <text x="20" y="385" font-family="Monaco, monospace" font-size="12" fill="#50fa7b">
     ➜ lets explore my GitHub profile!
     <animate
       attributeName="opacity"
@@ -50,4 +93,13 @@
       dur="0.5s"
       repeatCount="indefinite"/>
   </text>
+  
+  <!-- Blinking cursor -->
+  <rect x="270" y="373" width="8" height="15" fill="#f8f8f2">
+    <animate
+      attributeName="opacity"
+      values="0;1;0"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </rect>
 </svg>
