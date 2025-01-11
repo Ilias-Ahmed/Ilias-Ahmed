@@ -166,7 +166,7 @@
 
   <!-- Contact Options -->
   <p align="center">
-    <a href="mailto:your.email@gmail.com">
+    <a href="mailto:iliasahmed70023@gmail.com">
       <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://calendly.com/your-username">
@@ -179,17 +179,17 @@
 
   <!-- Developer Platforms -->
   <p align="center">
-    <a href="https://dev.to/your-username">
+    <a href="https://dev.to/ilias_ahmed">
       <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
-    </a>
-    <a href="https://medium.com/@your-username">
-      <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
     </a>
     <a href="https://stackoverflow.com/users/your-id">
       <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
     </a>
     <a href="https://gist.github.com/Ilias-Ahmed/">
      <img src="https://img.shields.io/badge/Explore%20My%20Gists-blue?style=for-the-badge&logo=github" alt="GitHub Gists" />
+    </a>
+     <a href="https://medium.com/@your-username">
+      <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
     </a>
   </p>
 </div>
