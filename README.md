@@ -12,13 +12,6 @@
 <!-- Separator -->
 </p>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<!-- Quick Navigation Menu - NEW -->
-<div align="center">
-  <a href="#skills">🛠️ Skills</a> •
-  <a href="#projects">🚀 Projects</a> •
-  <a href="#stats">📊 Stats</a> •
-  <a href="#connect">🤝 Connect</a>
-</div>
 
 <!-- About Me Section -->
 <h2 align="left">
