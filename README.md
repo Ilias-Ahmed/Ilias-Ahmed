@@ -149,7 +149,7 @@
     <a href="https://twitter.com/your-twitter">
       <img src="https://img.shields.io/badge/@Ilias_Ahmd-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="Twitter" />
     </a>
-   <a href="portfolio-eight-hazel-48.vercel.app">
+   <a href="https://portfolio-eight-hazel-48.vercel.app/">
      <img src="https://img.shields.io/badge/Portfolio-4CAF50?style=for-the-badge&logo=firefox&logoColor=white" alt="View Portfolio" />
    </a>
   </p>
