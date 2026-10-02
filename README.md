@@ -5,9 +5,13 @@
 
 <!-- Profile Views & Time Zone -->
 <div align="center">
-  <img src="https://widgetbite.com/stats/Ilias-Ahmed" alt="Profile Views">
-  <img src="./assets/timezone-badge.svg" width="50%" alt="Time Zone Badge" />
-</div>
+  <img
+      src="https://komarev.com/ghpvc/?username=Ilias-Ahmed&label=PROFILE%20VIEWS&color=22d3ee&labelColor=252945&style=for-the-badge"
+      width="260"
+      alt="Profile Views"
+    />
+  <img src="./assets/timezone-badge.svg" width="35%" alt="Time Zone Badge" />
+ <img src="https://img.shields.io/github/followers/Ilias-Ahmed?label=Followers&style=for-the-badge&logo=github&color=f3af2c" width="260" alt="Followers" />
 
 <!-- Separator -->
 </p>
@@ -28,27 +32,18 @@
 </h2>
 
 <div align="center">
-  <!-- Frontend -->
-  <h3>🎨 Frontend Technologies</h3>
-  <p>
-    <img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" width="50">
-    <img src="https://en.vetores.org/d/typescript.svg" width="45">
-    <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" width="50"> 
-    <img src="https://shadowblood.gallerycdn.vsassets.io/extensions/shadowblood/tailwind-moon/3.0.2/1673948732518/Microsoft.VisualStudio.Services.Icons.Default" width="50">
-  </p>
 
-  <!-- Backend -->
-  <h3>⚡ Backend Powerhouse</h3>
-  <p>
-    <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="50">
-    <img src="https://img.icons8.com/officel/2x/express-js.png" width="55">
-  </p>
+### 🎨 Frontend Technologies
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="Frontend skills" />
 
-  <!-- Database -->
-  <h3>🛢️ Database Management</h3>
-    <p>
-    <img src="https://media1.giphy.com/media/WjW94M0OMFawh1F0Wv/200w.webp" width="100">
-    </p>
+### ⚡ Backend Powerhouse
+<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Backend skills" />
+
+### 🛢️ Database Management
+<img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="Database skills" />
+
+### 🧰 Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,vercel&theme=dark" alt="Tools and platforms" />
 </div>
 
 <!-- NEW: Interactive Skills Tree -->
