@@ -65,26 +65,26 @@
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">Project 1</h3>
+      <h3 align="center">Edutrack</h3>
       <div align="center">  
-        <a href="PROJECT_URL" target="_blank">
-          <img src="https://via.placeholder.com/500x300?text=Project+Preview" alt="Project 1"/>
+        <a href="https://github.com/Ilias-Ahmed/edutrack" target="_blank">
+          <img src="https://edutrack.mipedia.tech/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1498243691581-b145c3f54a5a&w=750&q=75" alt="Project 1"/>
         </a>
         <p>
-          <a href="https://github.com/username/repo" target="_blank">
+          <a href="https://github.com/Ilias-Ahmed/edutrack" target="_blank">
             <img src="https://img.shields.io/badge/Code-fe428e?style=for-the-badge&logo=github&logoColor=white" alt="Code"/>
           </a>  
-          <a href="PROJECT_URL" target="_blank">
+          <a href="https://edutrack.mipedia.tech/" target="_blank">
             <img src="https://img.shields.io/badge/Live-f2e15c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live"/>
           </a>
         </p>
-        <p><strong>React, Node.js, MongoDB</strong> - Your project description here</p>
+        <p>School Management System (SMS)</p>
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">Project 2</h3>
+      <h3 align="center">Sewalink</h3>
       <div align="center">  
-        <a href="PROJECT_URL" target="_blank">
+        <a href="https://github.com/Ilias-Ahmed/SewaLink" target="_blank">
           <img src="https://via.placeholder.com/500x300?text=Project+Preview" alt="Project 2"/>
         </a>
         <p>
